@@ -49,7 +49,9 @@ for i in range(10,11):
         for j in range(1,1000):
             if ((real_day/i)/j).is_integer():
                 print("Hours:",i,"Seconds:",real_day/i,"Minutes:",j,"Seconds:",(real_day/i)/j)
-                value = (100/j)*((real_day/i)/j)
+                #value = (100/j)*((real_day/i)/j)
+                value = ((real_day/i)/j)/(100/j)
+                print(value)
                 if value.is_integer():
                     print(value)
                 #if (100/((real_day/i)/j)*j).is_integer():
