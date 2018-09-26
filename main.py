@@ -51,6 +51,8 @@ for i in range(10,11):
                 print("Hours:",i,"Seconds:",real_day/i,"Minutes:",j,"Seconds:",(real_day/i)/j)
                 #value = (100/j)*((real_day/i)/j)
                 value = ((real_day/i)/j)/(100/j)
+                new_second_value = value/100
+                print(new_second_value)
                 print(value)
                 if value.is_integer():
                     print(value)
