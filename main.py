@@ -67,6 +67,6 @@ if var:
                 if float(value).is_integer():
                     print(i,j,k,z,value)
 
-print("done")
+print("done:",round(value)) #returns new value for a minute
 
 
